@@ -1,5 +1,4 @@
-pub fn popcnt(val: u64) -> u32 {
-    let mut val = val;
+pub fn popcnt(mut val: u64) -> u32 {
     let mut count = 0u32;
 
     while val != 0 {
