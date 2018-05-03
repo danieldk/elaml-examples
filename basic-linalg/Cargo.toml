@@ -1,0 +1,12 @@
+[package]
+name = "basic-linalg"
+version = "0.1.0"
+authors = ["Daniël de Kok <me@danieldk.eu>"]
+
+[dependencies]
+simd = "0.2"
+
+[dev-dependencies]
+assert_approx_eq = "1"
+quickcheck = "0.6"
+rand = "0.4"
