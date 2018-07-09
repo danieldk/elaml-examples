@@ -1,0 +1,13 @@
+[package]
+name = "knn"
+version = "0.1.0"
+authors = ["Daniël de Kok <me@danieldk.eu>"]
+
+[dependencies]
+approx = "0.2"
+clap = "2"
+failure = "0.1"
+ndarray = "0.11"
+num-traits = "0.2"
+ordered-float = "0.5"
+stdinout = "0.4"
